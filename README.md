@@ -24,3 +24,9 @@ Nesta aula foi proposto que fizessemos um catalogo, inicialmente de filmes mas c
 Aula 5 - AluraFLIX.
 
 Nesse exercício aprimoramos oque foi aprendido na aula passada, onde aprendemos a adiconar tags HTML direto no JavaScript com o "document.write()", porem, no desafio de hoje o foco era adicionar um input que permitia que o usuário da aplicação pudesse adicionar a URL das suas próprias capas de filmes.
+
+
+Aula 6 - Tabela de Classificação.
+
+Hoje fizemos uma tabela de classificação, onde definimos um objeto no JavaScript contento informações como nome, vitórias, derrotas e empates, e criamos uma interação para que 
+essas informações fossem obtidas através de um botão no HTML, após cada nova informação inserida como uma vitória ou empate o cálculo de pontos é refeito automaticamente.
