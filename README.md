@@ -30,3 +30,8 @@ Aula 6 - Tabela de Classificação.
 
 Hoje fizemos uma tabela de classificação, onde definimos um objeto no JavaScript contento informações como nome, vitórias, derrotas e empates, e criamos uma interação para que 
 essas informações fossem obtidas através de um botão no HTML, após cada nova informação inserida como uma vitória ou empate o cálculo de pontos é refeito automaticamente.
+
+
+Aulas 7 e 8 - Card Game (Ragnarok)
+
+Esse exercicio explodiu minha cabeça, tomei algumas decisões diferentes do que foi proposto e isso me custou bastante tempo quebrando a cabeça para resolver bugs, o importante é que deu tudo certo e que consegui finalizar o exercicio, alinhei os elementos em cima da moldura com position absolute entao não esta nem um pouco responsivo, e dependendo da resolução do monitor pode estar tudo desalinhado dentro das cartas, mas consegui desenvolver todas as funcionalidades, a estética e diagramação serão aprimoradas em seguida.
