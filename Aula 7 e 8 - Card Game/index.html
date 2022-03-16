@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Reset CSS -->
+    <link href="reset.css" rel="stylesheet">
+    
+    <!-- Estilo Proprio CSS -->
+    <link href="style.css" rel="stylesheet">
+
+
+    <title>SuperTrunfo - Imersão Dev Alura</title>
+
+</head>
+<body>
+    
+    <div class="div-conteiner">
+        <p class="logo-imersao">IMERSÃO <span class="dev-edit">DEV_</span></p>
+        <h1>RAGNAROK - CARD GAME</h1>
+        <button id="botao-sorteio" type="button" onclick="sortearCarta()">Sortear Carta</button>
+        <h2 id="escolha-atributo"></h2>
+        <div class="edit-input-atributos">
+            <select name="atributo" id="box-selecionar-atributos" hidden="true">
+                
+            </select>
+        </div>
+        
+        <div class="box-posicionamento-molduras">
+            <div class="posicionamento-img-carta-jogador"></div>
+            <div class="posicionamento-img-carta-maquina"></div>
+            <img src='https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png'>
+            <img src='https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png'>
+        </div>
+        
+        <div class="box-nome-carta-jogador"> </div>
+        <div class="box-posicionamento-atributos"> </div>
+
+        <div class="box-nome-carta-maquina"></div>
+        <div class="box-posicionamento-atributos-maquina"> </div>
+            
+        <button id="btnJogar" type="button" onclick="iniciarJogo()" disabled="true">Jogar</button>
+        <h3 id="resultado"></h3>
+    </div>
+    <div class="btn-meio"><button id="btnreload" type="button" hidden="true" onclick="reload()">Jogar Novamente</button></div>
+    
+
+<script src="index.js"></script>
+</body>
+
+</html>

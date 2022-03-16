@@ -1,0 +1,200 @@
+body {
+    background: linear-gradient(180deg,#ecffc7,#ffffff,#ffffff,#00d39e);
+}
+
+/* Ediçoes de conteiners */
+
+.div-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ediçoes tipograficas */
+
+
+.div-conteiner h1 {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#escolha-atributo {
+    color: black;
+}
+
+
+
+
+/* Cabecalho (header) */
+
+.logo-imersao {
+    font-size: 22px;
+    margin-top: 90px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dev-edit {
+    padding: 5px 10px 5px 10px;
+    background-color: #00d39e;
+    color: black;
+  }
+
+  .botao-sorteio {
+      color: black;
+  }
+
+  /* Elementos interativos */
+
+  .edit-input-atributos  select, option {
+      text-align: center;
+      text-transform: uppercase;
+      width: 80px;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 20px;
+      background: none;
+      color: black;
+  }
+
+  #resultado {
+      padding: 10px 0px 50px 0px;
+      
+
+  }
+
+  .box-posicionamento-molduras {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      opacity: 0;
+  }
+
+  .posicionamento-img-carta-jogador {
+      width: 290px;
+      height: 225px;
+      border: 0px solid green;
+      position: absolute;
+      left: 316px;
+      top: 362px;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      text-align: center;
+  }
+
+  .posicionamento-img-carta-maquina {
+      border: 0px solid green;
+      position: absolute;
+      width: 290px;
+      height: 225px;
+      right: 310px;
+      top: 362px;
+      background-repeat: no-repeat;
+      background-position-x: center;
+
+  }
+
+  .posicionamento-nome-carta-jogador {
+      width: 240px;
+      position: absolute;
+      border: 1px solid orange;
+      bottom: 10px;
+
+  }
+
+  #resultado {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+  }
+
+  #btnreload {
+      margin: 0 0 25px;
+  }
+
+  .btn-meio { 
+      display: flex;
+      justify-content: center;
+  }
+
+  .box-posicionamento-atributos {
+    border: 0px solid red;
+    position: absolute;
+    width: 290px;
+    height: 150px;
+    top: 627px;
+    left: 316px;
+    padding-top: 5px;
+
+  }
+
+  .box-posicionamento-atributos p {
+      color: white;
+      text-transform: uppercase;
+      margin: 6px;
+      font-size: 15px;
+  }
+
+  .box-posicionamento-atributos-maquina {
+    border: 0px solid red;
+    position: absolute;
+    width: 290px;
+    height: 150px;
+    top: 627px;
+    right: 316px;
+    padding-top: 5px;
+
+  }
+
+  .box-posicionamento-atributos-maquina p {
+    color: white;
+    text-transform: uppercase;
+    margin: 6px;
+    font-size: 15px;
+}
+  
+  .box-nome-carta-jogador {
+      height: 25px;
+      width: 290px;
+      border: 0px solid orange;
+      position: absolute;
+      top: 590px;
+      left: 316px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .box-nome-carta-jogador h3 {
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      margin-top: 4px;
+  }
+
+  .box-nome-carta-maquina {
+    height: 25px;
+    width: 290px;
+    border: 0px solid orange;
+    position: absolute;
+    top: 590px;
+    right: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .box-nome-carta-maquina h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+}
